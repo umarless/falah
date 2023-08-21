@@ -214,3 +214,5 @@ app_license = "MIT"
 # auth_hooks = [
 #	"falah.auth.validate"
 # ]
+
+website_route_rules = [{'from_route': '/site/<path:app_path>', 'to_route': 'site'}, {'from_route': '/main/<path:app_path>', 'to_route': 'main'}, {'from_route': '/test/<path:app_path>', 'to_route': 'test'},]
